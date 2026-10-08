@@ -1,18 +1,14 @@
 # MediaLog Bootcamp
 
-Paquete `medialog-bootcamp`. Node >=22.22.0 y pnpm 11.17.0.
+Paquete `medialog-bootcamp`. Node >=22.22.0, pnpm 11.17.0.
 
-## Sesión 03 · S03-B04 · Entrada al taller
+## Sesión 06 · session-06-step-03-modal-preview
 
-MediaGrid recibe items y conserva wrapper, map y key. App elige el fixture. Seis tarjetas funcionan; [] deja el área vacía sin mensaje. No contiene EmptyState, MediaTypeBadge ni el reto extra.
+Modal desde Probar detalle, contenido y cierres. Sin onSelect ni Ver detalle en Grid/Card; punto anterior al taller.
 
 ```bash
 pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-En otra terminal: `pnpm build` y `pnpm lint`.
-
-[Guía estudiantil](course/03-taller-catalogo-estatico/student-guide.md), [lectura previa](course/03-taller-catalogo-estatico/pre-class-reading.md) y [rúbrica](course/03-taller-catalogo-estatico/workshop-rubric.md).
-
-Guarda tu trabajo antes de consultar otra rama. Presentación continua → coding → descanso → taller → revisión oral. Siguiente paso: taller estudiantil de estado vacío y badge.
+Comprueba con `pnpm build` y `pnpm lint`. Guarda cambios antes de cambiar de rama. Filtros, contador y limpieza se conservan. Primero presentación continua; después coding, descanso, taller y cierre oral.

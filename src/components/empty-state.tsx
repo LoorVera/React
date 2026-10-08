@@ -6,9 +6,9 @@ type EmptyStateProps = {
 export function EmptyState(props: EmptyStateProps) {
   const { title, description } = props
   return (
-    <div className="empty-state">
+    <section className="empty-state">
       <h3>{title}</h3>
       <p>{description}</p>
-    </div>
+    </section>
   )
 }
